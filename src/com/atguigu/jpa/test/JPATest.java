@@ -40,6 +40,7 @@ public class JPATest {
 		transaction.commit();
 		entityManager.close();
 		entityManagerFactory.close();
+		System.out.println("end...");
 	}
 	
 	//可以使用 JPQL 完成 UPDATE 和 DELETE 操作. 
